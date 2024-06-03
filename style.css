@@ -146,7 +146,7 @@ body {
 
 .home .heart i {
   margin: auto;
-  color: #aad4e5;
+  color: #000080;
 }
 
 .info {
@@ -231,6 +231,10 @@ body {
 .gifts p {
   font-size: 1rem;
   font-weight: 300;
+}
+
+.story {
+  background-color: #ccc;
 }
 
 .timeline {
@@ -331,11 +335,11 @@ body {
 }
 
 .gallery {
-  background-color: #8181ff;
+  background-color: #727272;
 }
 
 .rsvp {
-  background-color: var(--bg);
+  background-color: #333333;
 }
 
 .rsvp h2 {
@@ -377,20 +381,28 @@ body {
   font-weight: 300;
 }
 
+.gifts {
+  background-color: #f1f1f1;
+}
+
+.gifts li {
+  background-color: #e9e9e9;
+}
+
 footer {
   padding: 3rem;
-  background-color: #000080;
+  background-color: #1212e2;
   color: white;
 }
 
 footer a {
-  color: #00ffea;;
+  color: white;
   font-weight: bold;
   text-decoration: none;
 }
 
 footer a:hover {
-  color: white;
+  color: #000080;
 }
 
 footer li {
