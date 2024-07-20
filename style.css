@@ -61,14 +61,17 @@ body {
 }
 
 .mynavbar .offcanvas {
-  height: 100vh;
+  right: -2rem;
+  height: 60vh;
   width: 20vh;
+  min-width: 20vh;
 }
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
+  padding-top: 15px;
   font-family: "Sacramento", cursive;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 
@@ -99,6 +102,7 @@ body {
   font-family: "Sacramento";
   font-size: 5rem;
   font-weight: bold;
+  min-width: 15vh;
 }
 
 .home h3 {
@@ -391,12 +395,14 @@ body {
 }
 
 .gallery a {
+  text-decoration: none;
   background-color: #000080;
   color: white;
   border: 0.5px solid #000080;
 }
 
 .gallery a:hover {
+  text-decoration: none;
   background-color: white;
   color: #000080;
   border: 0.5px solid white;
@@ -505,6 +511,8 @@ footer li {
   }
 }
 
+/* humberger menu */
+
 /* tablet */
 @media (max-width: 768px) {
   html {
@@ -536,6 +544,10 @@ footer li {
   .simply-countdown > .simply-section {
     padding: 45px;
     margin: 3px;
+  }
+
+  nav ul {
+    display: none;
   }
 
   .mynavbar .nav-link {
