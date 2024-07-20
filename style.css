@@ -61,7 +61,8 @@ body {
 }
 
 .mynavbar .offcanvas {
-  right: -100rem;
+  position: absolute;
+  margin-right: -25vh;
   height: 60vh;
   width: 20vh;
   min-width: 20vh;
