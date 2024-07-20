@@ -1,1 +1,1 @@
-# HaGhi.github.io
+# Hafidz dan Ghina
