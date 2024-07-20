@@ -393,13 +393,13 @@ body {
 .gallery a {
   background-color: #000080;
   color: white;
-  border: 1px solid #000080;
+  border: 0.5px solid #000080;
 }
 
 .gallery a:hover {
   background-color: white;
   color: #000080;
-  border: 1px solid white;
+  border: 0.5px solid white;
 }
 
 footer {
@@ -457,7 +457,7 @@ footer li {
 /* Extra large */
 @media (max-widht: 1200px) {
   .home .heart {
-    transform: translateX(-50%) translateY(45px);
+    transform: 45px;
   }
 }
 
@@ -486,7 +486,7 @@ footer li {
   }
 
   .timeline li .timeline-panel {
-    width: calc(100% - 200px);
+    width: 200px;
     float: right;
   }
 
@@ -551,7 +551,7 @@ footer li {
 
   .timeline li .timeline-panel {
     width: 65%;
-    transform: translateX(-20px);
+    transform: -20px;
   }
 
   .timeline li .timeline-panel::before {
