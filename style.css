@@ -61,7 +61,6 @@ body {
 }
 
 .mynavbar .offcanvas {
-  right: -2rem;
   height: 60vh;
   width: 20vh;
   min-width: 20vh;
@@ -546,8 +545,8 @@ footer li {
     margin: 3px;
   }
 
-  nav ul {
-    display: none;
+  .mynavbar .offcanvas {
+    right: -5rem;
   }
 
   .mynavbar .nav-link {
